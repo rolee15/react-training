@@ -1,8 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Box from "./Box.jsx";
-import Importance from "./Importance.js";
-import Urgency from "./Urgency.js";
 
 const App = () => {
     const todos = [];
@@ -42,7 +40,7 @@ const App = () => {
                 </div>
             </div>
         </div>
-    )
+    );
 };
 
-ReactDOM.render(<App/>, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
